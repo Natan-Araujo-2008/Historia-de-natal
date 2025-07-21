@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <title>Cultura e Gastronomia em Natal RN</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #007acc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #004f99;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #0066cc;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    h1 {
+      color: #004f99;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .content {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .text-block {
+      flex: 1 1 400px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    .image-block {
+      flex: 1 1 350px;
+      text-align: center;
+    }
+    .image-block img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: #007acc;
+      color: white;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gastronomia de Natal, RN</h1>
+  </header>
+  <nav>
+    <a href="Historia.html">História</a>
+    <a href="turismo.html">Turismo</a>
+    <a href="Comidas.html">Comidas</a>
+  </nav>
+  <main>
+    <div class="content">
+      <div class="text-block">
+        <p>
+         A carne de sol é uma comida típica do nordeste brasileiro. Seu nome se refere ao método de conservar alimentos de origem animal utilizado, que inclui sal e a secagem em um lugar coberto e bem ventilado. As peças de carne de sol normalmente tendem a ser de origem bovina. Apesar de possuir o nome carne de sol, a mesma não é exposta ao sol.
+        </p>
+      </div>
+      <div class="image-block">
+        <img src="https://minhasreceitinhas.com.br/wp-content/uploads/2023/05/345229737_1257646218217527_7725703641716565977_n-e1683584730861.jpg" alt="Carne de sol com macaxeira" />
+        <small>Carne de sol com macaxeira, prato típico potiguar</small>
+      </div>
+        <main>
+    <div class="content">
+      <div class="text-block">
+        <p>
+          A cartola nordestina é uma sobremesa típica que conquista o paladar de quem prova. A combinação da doçura das bananas-da-terra com o sabor marcante do queijo coalho resulta em uma experiência única e deliciosa.
+        </p>
+      </div>
+      <div class="image-block">
+        <img src="https://catracalivre.com.br/wp-content/uploads/2023/03/istock-1372224618.jpg" alt="Cartola Nordestina" />
+        <small>Cartola Nordestina</small>
+      </div>
+              <main>
+    <div class="content">
+      <div class="text-block">
+        <p>
+         O camarão na moranga é um prato típico da culinária caiçara, muito consumido no litoral brasileiro.
+
+
+Seu sabor marcante e cremosidade conquistam paladares em todo o país.
+        </p>
+      </div>
+      <div class="image-block">
+        <img src="https://saboremmovimento.com.br/wp-content/uploads/2025/04/Camarao-na-moranga-cremoso.jpg" alt="Cartola Nordestina" />
+        <small>Cartola Nordestina</small>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+
+
+
