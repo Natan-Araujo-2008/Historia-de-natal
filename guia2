@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+  <title>Turismo em Natal RN</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #007acc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #004f99;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #0066cc;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    h1, h2 {
+      color: #004f99;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 30px;
+    }
+    ul li {
+      background: #e6f0ff;
+      margin-bottom: 12px;
+      padding: 12px 15px;
+      border-radius: 6px;
+      font-size: 1.1em;
+    }
+    .img-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+    .img-gallery div {
+      flex: 1 1 250px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+    }
+    .img-gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .caption {
+      padding: 8px 12px;
+      font-weight: bold;
+      color: #004f99;
+      text-align: center;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: #007acc;
+      color: white;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pontos Turisticos de Natal, RN</h1>
+  </header>
+  <nav>
+    <a href="Historia.html">História</a>
+    <a href="turismo.html">Turismo</a>
+    <a href="Comidas.html">Comidas</a>
+  </nav>
+  <main>
+    <h2>Pontos Turísticos</h2>
+    <div class="img-gallery">
+      <div>
+        <img src="https://s2-g1.glbimg.com/YqTeoQdcSz7b9j8XUYOtfMgP1FE=/0x0:772x522/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/u/V/oeTP7SQUABWJANZd1AZQ/caninde.jpg" alt="Forte dos Reis Magos" />
+        <div class="caption">Forte dos Reis Magos</div>
+      </div>
+      <div>
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/96/dd/70/lindas-dunas.jpg?w=1200&h=1200&s=1" alt="Dunas de Genipabu" />
+        <div class="caption">Dunas de Genipabu</div>
+      </div>
+      <div>
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/69/a9/8a/natal-s-dunes-where-natal.jpg?w=600&h=400&s=1" alt="Parque das Dunas" />
+        <div class="caption">Parque das Dunas</div>
+      </div>
+    <div>
+        <img src="https://marazulreceptivo.com.br/wp-content/uploads/2020/01/Barreira-do-Inferno-1-scaled.jpg" alt="Barreira do Inferno">
+        <div class="caption">Barreira do Inferno</div>
+    </div>
+    </div>
+
+
+    <ul>
+      <li><strong>Praias:</strong> Ponta Negra, Genipabu, Praia do Meio</li>
+      <li><strong>Forte dos Reis Magos:</strong> Construção histórica do século XVI</li>
+      <li><strong>Parque das Dunas:</strong> Área de conservação ambiental urbana</li>
+      <li><strong>Carnatal:</strong> Uma das maiores micaretas do Brasil</li>
+      <li><strong>Barreira do Inferno:</strong> Centro de lançamento de foguetes</li>
+    </ul>
+    </main>
+</body>
+</html>
+
+
+
+
